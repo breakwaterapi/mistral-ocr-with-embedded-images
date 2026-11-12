@@ -14,7 +14,7 @@ from typing import Union
 from dotenv import load_dotenv
 load_dotenv()
 
-from mistralai import Mistral
+from mistralai.client import Mistral
 
 class MistralClient:
     def __init__(self):
