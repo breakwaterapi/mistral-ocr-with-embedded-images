@@ -1,4 +1,4 @@
-mistralai
+mistralai>=2
 python-dotenv
 Pillow
 pytest
